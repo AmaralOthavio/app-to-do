@@ -12,5 +12,8 @@ export default {
     gray_500: "#6b6572",
     gray_600: "#262428",
 
-    danger: "#c2464d"
+    danger: "#c2464d",
+
+    white: "#ffffff",
+    black: "#000000",
 }

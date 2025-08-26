@@ -4,7 +4,7 @@ import colors from "../design/colors";
 export default function Header() {
     return (
         <View style={styles.container}>
-            <Image source={require('../assets/Logo.png')} />
+            <Image style={styles.img} source={require('../assets/Logo.png')} />
         </View>
     )
 }
@@ -15,5 +15,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: colors.gray_330,
+    },
+    img: {
+        height: 50,
+        width: 130,
     }
 })
